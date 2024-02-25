@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 function Navbar() {
   return (
-    <nav className=' h-20 bg-slate-900 text-white flex justify-between px-9'>
+    <nav className=' h-20 bg-zinc-950 text-white flex justify-between px-9'>
           <div className=' flex p-3 '>
                <h1 className='text-5xl font-bold'>CRED!</h1>
           </div>
