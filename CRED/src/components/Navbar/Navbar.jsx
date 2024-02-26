@@ -16,7 +16,6 @@ function Navbar() {
                </ul>
           </div>
           <div className='flex items-center gap-4'>
-               <button className='text-white text-lg font-bold border sticky py-1 px-4 rounded-md  '>Log</button>
                <button class="signupBtn">
                     SIGN UP
                <span class="arrow">
