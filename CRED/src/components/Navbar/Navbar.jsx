@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import {  NavLink } from 'react-router-dom'
 function Navbar() {
   return (
     <nav className=' h-20 bg-zinc-950 text-white flex justify-between px-9'>
@@ -8,7 +9,7 @@ function Navbar() {
           </div>
           <div className='h-auto w-fit flex justify-center items-center'>
                <ul className=' flex gap-8 text-lg font-semibold'>
-                    <li>Home</li>
+                    <li><NavLink to='/' className={({isActive})=>  ` ${isActive ? 'text-purple-300' : 'text-white'} `}>Home</NavLink> </li>
                     <li>Payments</li>
                     <li>Check Credit Score</li>
                     <li>About</li>

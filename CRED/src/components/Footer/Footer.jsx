@@ -2,8 +2,8 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className='h-3/4  border sticky py-16 bg-slate-950 text-white '>
-    <div className='flex flex-wrap justify-around'>
+    <footer className=' h-3/4  border sticky py-16 bg-slate-950 w-full text-white '>
+    <div className='flex flex-wrap justify-around w-full'>
             <div className='h-fit'>
                 <h1 className='text-5xl font-bold py-5'>CRED!</h1>
             </div>
@@ -34,7 +34,7 @@ function Footer() {
                 </ul>
             </div>
         </div>
-        <div className=' flex justify-around items-center h-3/4 bg-slate-950'>
+        <div className=' flex justify-around items-center h-3/4 bg-slate-950 '>
             <p className='text-md text-gray-500'>copyright © 2020-23 Aakash Malviya.</p>
             <p className='text-md text-gray-500'>privacy policy | terms and conditions | returns and refund</p>
         </div>
