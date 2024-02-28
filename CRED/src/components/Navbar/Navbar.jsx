@@ -9,8 +9,8 @@ function Navbar() {
           </div>
           <div className='h-auto w-fit flex justify-center items-center'>
                <ul className=' flex gap-8 text-lg font-semibold'>
-                    <li><NavLink to='/' className={({isActive})=>  ` ${isActive ? 'text-purple-300' : 'text-white'} `}>Home</NavLink> </li>
-                    <li>Payments</li>
+                    <li><NavLink to='/' className={({isActive})=>  `${isActive ? 'text-purple-300' : 'text-white'}`}>Home</NavLink> </li>
+                    <li><NavLink to='payments'> Payments</NavLink></li>
                     <li>Check Credit Score</li>
                     <li>About</li>
                     <li>Help</li>
