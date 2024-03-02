@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className=' h-3/4  border sticky py-16 bg-slate-950 w-full text-white '>
+    <footer className=' h-3/4  border sticky py-16 bg-slate-950 w-screen text-white '>
     <div className='flex flex-wrap justify-around w-full'>
             <div className='h-fit'>
                 <h1 className='text-5xl font-bold py-5'>CRED!</h1>
